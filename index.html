@@ -1,0 +1,360 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>금융 의사소통 보조 솔루션 - 스스로 은행 업무를 해내는 그날까지</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script>
+        tailwind.config = {
+            theme: {
+                extend: {
+                    colors: {
+                        primary: '#2563eb',
+                        secondary: '#1e40af',
+                        accent: '#f59e0b'
+                    }
+                }
+            }
+        }
+    </script>
+</head>
+<body class="bg-gray-50">
+    <!-- Navigation -->
+    <nav class="bg-white shadow-sm">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="flex justify-between h-16">
+                <div class="flex items-center">
+                    <h1 class="text-xl font-bold text-primary">금융소통도우미</h1>
+                </div>
+                <div class="flex items-center space-x-4">
+                    <a href="#about" class="text-gray-700 hover:text-primary">소개</a>
+                    <a href="#features" class="text-gray-700 hover:text-primary">기능</a>
+                    <a href="#contact" class="bg-primary text-white px-4 py-2 rounded-lg hover:bg-secondary">체험신청</a>
+                </div>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero Section (Attention) -->
+    <section class="bg-gradient-to-br from-primary to-secondary text-white py-20">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
+            <h1 class="text-4xl md:text-6xl font-bold mb-6">
+                스스로 은행 업무를 해내는 그날까지
+            </h1>
+            <p class="text-xl md:text-2xl mb-8 max-w-4xl mx-auto leading-relaxed">
+                발달·언어장애인이 보호자 없이도 은행에서 자신의 의사를 명확히 전달할 수 있도록 도와주는 AI 기반 의사소통 보조 솔루션
+            </p>
+            <button class="bg-accent text-white px-8 py-4 rounded-lg text-lg font-semibold hover:bg-yellow-600 transition-colors">
+                무료 체험 신청하기
+            </button>
+        </div>
+    </section>
+
+    <!-- Problem Section (Interest) -->
+    <section id="about" class="py-20 bg-white">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="text-center mb-16">
+                <h2 class="text-3xl md:text-4xl font-bold text-gray-900 mb-6">
+                    은행 창구에서 겪는 소통의 어려움
+                </h2>
+                <p class="text-xl text-gray-600 max-w-3xl mx-auto leading-relaxed">
+                    발달·언어장애인 10명 중 8명이 보호자 없이 은행 업무를 진행하는 데 어려움을 겪고 있습니다. 복잡한 금융 용어, 급작스러운 질문, 그리고 직원의 부정적 반응까지. '다음에 보호자와 같이 오세요'라는 말 한마디에 무너지는 자존감.
+                </p>
+            </div>
+            
+            <div class="grid md:grid-cols-3 gap-8">
+                <div class="text-center p-6 bg-red-50 rounded-lg">
+                    <div class="text-4xl font-bold text-red-600 mb-2">78%</div>
+                    <p class="text-gray-700">발달장애인의 독립적인 금융 업무 수행 어려움 호소</p>
+                </div>
+                <div class="text-center p-6 bg-orange-50 rounded-lg">
+                    <div class="text-4xl font-bold text-orange-600 mb-2">65%</div>
+                    <p class="text-gray-700">소통 실패로 인한 업무 중단률</p>
+                </div>
+                <div class="text-center p-6 bg-green-50 rounded-lg">
+                    <div class="text-4xl font-bold text-green-600 mb-2">12%</div>
+                    <p class="text-gray-700">보호자 동반 없이 성공적으로 업무를 마친 비율</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Solution Section (Desire) -->
+    <section id="features" class="py-20 bg-gray-50">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="text-center mb-16">
+                <h2 class="text-3xl md:text-4xl font-bold text-gray-900 mb-6">
+                    AI가 바꾸는 금융 소통의 새로운 패러다임
+                </h2>
+                <p class="text-xl text-gray-600 max-w-3xl mx-auto">
+                    더 이상 보호자에 의존하지 마세요. 당신의 의사를 명확하게 전달하고, 스스로 해냈다는 성취감을 경험해보세요.
+                </p>
+            </div>
+            
+            <div class="grid md:grid-cols-2 lg:grid-cols-4 gap-8">
+                <div class="bg-white p-6 rounded-lg shadow-md">
+                    <div class="w-12 h-12 bg-blue-100 rounded-lg flex items-center justify-center mb-4">
+                        <span class="text-2xl">🔄</span>
+                    </div>
+                    <h3 class="text-xl font-semibold mb-3">쉬운 말 변환</h3>
+                    <p class="text-gray-600">복잡한 금융 용어를 이해하기 쉬운 말로 자동 변환</p>
+                </div>
+                
+                <div class="bg-white p-6 rounded-lg shadow-md">
+                    <div class="w-12 h-12 bg-green-100 rounded-lg flex items-center justify-center mb-4">
+                        <span class="text-2xl">👁️</span>
+                    </div>
+                    <h3 class="text-xl font-semibold mb-3">시각 기반 UI</h3>
+                    <p class="text-gray-600">텍스트보다 직관적인 그림과 버튼으로 의사 표현</p>
+                </div>
+                
+                <div class="bg-white p-6 rounded-lg shadow-md">
+                    <div class="w-12 h-12 bg-purple-100 rounded-lg flex items-center justify-center mb-4">
+                        <span class="text-2xl">🎤</span>
+                    </div>
+                    <h3 class="text-xl font-semibold mb-3">음성 보조</h3>
+                    <p class="text-gray-600">말하기 어려운 상황에서도 명확한 의사 전달</p>
+                </div>
+                
+                <div class="bg-white p-6 rounded-lg shadow-md">
+                    <div class="w-12 h-12 bg-yellow-100 rounded-lg flex items-center justify-center mb-4">
+                        <span class="text-2xl">✨</span>
+                    </div>
+                    <h3 class="text-xl font-semibold mb-3">맞춤형 문장 생성</h3>
+                    <p class="text-gray-600">개인별 특성에 맞는 최적화된 표현 제공</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- User Stories Section (Desire) -->
+    <section class="py-20 bg-white">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="text-center mb-16">
+                <h2 class="text-3xl md:text-4xl font-bold text-gray-900 mb-6">
+                    실제 사용자들의 변화 이야기
+                </h2>
+            </div>
+            
+            <div class="grid md:grid-cols-2 gap-12">
+                <div class="bg-gray-50 p-8 rounded-lg">
+                    <div class="flex items-center mb-6">
+                        <div class="w-16 h-16 bg-blue-100 rounded-full flex items-center justify-center mr-4">
+                            <span class="text-2xl">👩</span>
+                        </div>
+                        <div>
+                            <h3 class="text-xl font-semibold">29세 김지민님의 이야기</h3>
+                            <p class="text-gray-600">발달장애인</p>
+                        </div>
+                    </div>
+                    <blockquote class="text-gray-700 italic leading-relaxed">
+                        "처음에는 혼자 은행에 가는 게 두려웠어요. 하지만 이 도구 덕분에 적금 가입을 성공했을 때의 그 기쁨은 말로 표현할 수 없어요. 이제는 다른 업무도 도전해보고 싶어요."
+                    </blockquote>
+                </div>
+                
+                <div class="bg-gray-50 p-8 rounded-lg">
+                    <div class="flex items-center mb-6">
+                        <div class="w-16 h-16 bg-green-100 rounded-full flex items-center justify-center mr-4">
+                            <span class="text-2xl">👩‍👧</span>
+                        </div>
+                        <div>
+                            <h3 class="text-xl font-semibold">지민 어머니의 이야기</h3>
+                            <p class="text-gray-600">보호자</p>
+                        </div>
+                    </div>
+                    <blockquote class="text-gray-700 italic leading-relaxed">
+                        "딸이 혼자서도 할 수 있다는 자신감을 갖게 된 것이 가장 큰 변화예요. 앞으로 더 독립적으로 살아갈 수 있을 것 같아 기뻐요."
+                    </blockquote>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- CTA Section (Action) -->
+    <section id="contact" class="py-20 bg-gradient-to-r from-primary to-secondary text-white">
+        <div class="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
+            <h2 class="text-3xl md:text-4xl font-bold mb-6">
+                지금 시작하세요
+            </h2>
+            <p class="text-xl mb-8 leading-relaxed">
+                5주 후, 당신도 은행 창구에서 자신 있게 의사를 표현할 수 있습니다. 무료 체험에 참여하고 변화의 첫걸음을 내딛어보세요.
+            </p>
+            
+            <div class="grid md:grid-cols-2 gap-6 mb-8">
+                <button class="bg-accent text-white px-8 py-4 rounded-lg text-lg font-semibold hover:bg-yellow-600 transition-colors">
+                    무료 체험 신청하기
+                </button>
+                <button class="bg-white text-primary px-8 py-4 rounded-lg text-lg font-semibold hover:bg-gray-100 transition-colors">
+                    사전 알림 등록하기
+                </button>
+            </div>
+            
+            <div class="grid md:grid-cols-3 gap-6 text-sm">
+                <div class="bg-white bg-opacity-10 p-4 rounded-lg">
+                    <div class="font-semibold mb-2">⏱️ 5주 완성</div>
+                    <p>기획부터 테스트까지</p>
+                </div>
+                <div class="bg-white bg-opacity-10 p-4 rounded-lg">
+                    <div class="font-semibold mb-2">🏦 시범 운영</div>
+                    <p>은행 1곳 협업 예정</p>
+                </div>
+                <div class="bg-white bg-opacity-10 p-4 rounded-lg">
+                    <div class="font-semibold mb-2">👥 사용자 테스트</div>
+                    <p>5쌍 인터뷰 진행</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="bg-gray-900 text-white py-12">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
+            <h3 class="text-xl font-bold mb-4">금융소통도우미</h3>
+            <p class="text-gray-400 mb-6">
+                발달·언어장애인의 금융 자립을 위한 AI 기반 의사소통 보조 솔루션
+            </p>
+            <div class="text-sm text-gray-500">
+                © 2024 금융소통도우미. All rights reserved.
+            </div>
+        </div>
+    </footer>
+
+    <!-- Email Modal -->
+    <div id="emailModal" class="fixed inset-0 bg-black bg-opacity-50 hidden items-center justify-center z-50">
+        <div class="bg-white rounded-lg p-8 max-w-md w-full mx-4">
+            <div class="flex justify-between items-center mb-6">
+                <h3 class="text-2xl font-bold text-gray-900">무료 체험 신청</h3>
+                <button id="closeModal" class="text-gray-400 hover:text-gray-600 text-2xl">&times;</button>
+            </div>
+                         <form id="emailForm" action="https://formspree.io/f/xkgzzabd" method="POST" class="space-y-6">
+                <div>
+                    <label for="name" class="block text-sm font-medium text-gray-700 mb-2">이름</label>
+                    <input type="text" id="name" name="name" required 
+                           class="w-full px-3 py-2 border border-gray-300 rounded-lg focus:outline-none focus:ring-2 focus:ring-primary focus:border-transparent"
+                           placeholder="이름을 입력해주세요">
+                </div>
+                <div>
+                    <label for="email" class="block text-sm font-medium text-gray-700 mb-2">이메일 주소</label>
+                    <input type="email" id="email" name="email" required 
+                           class="w-full px-3 py-2 border border-gray-300 rounded-lg focus:outline-none focus:ring-2 focus:ring-primary focus:border-transparent"
+                           placeholder="example@email.com">
+                </div>
+                <div>
+                    <label for="phone" class="block text-sm font-medium text-gray-700 mb-2">연락처 (선택)</label>
+                    <input type="tel" id="phone" name="phone" 
+                           class="w-full px-3 py-2 border border-gray-300 rounded-lg focus:outline-none focus:ring-2 focus:ring-primary focus:border-transparent"
+                           placeholder="010-1234-5678">
+                </div>
+                <div>
+                    <label for="message" class="block text-sm font-medium text-gray-700 mb-2">메시지 (선택)</label>
+                    <textarea id="message" name="message" rows="3" 
+                              class="w-full px-3 py-2 border border-gray-300 rounded-lg focus:outline-none focus:ring-2 focus:ring-primary focus:border-transparent"
+                              placeholder="궁금한 점이나 요청사항이 있으시면 작성해주세요"></textarea>
+                </div>
+                <div class="flex space-x-3">
+                    <button type="submit" 
+                            class="flex-1 bg-primary text-white py-2 px-4 rounded-lg hover:bg-secondary transition-colors font-semibold">
+                        신청하기
+                    </button>
+                    <button type="button" id="cancelModal" 
+                            class="flex-1 bg-gray-300 text-gray-700 py-2 px-4 rounded-lg hover:bg-gray-400 transition-colors font-semibold">
+                        취소
+                    </button>
+                </div>
+            </form>
+        </div>
+    </div>
+
+    <script>
+        // Smooth scrolling for navigation links
+        document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+            anchor.addEventListener('click', function (e) {
+                e.preventDefault();
+                document.querySelector(this.getAttribute('href')).scrollIntoView({
+                    behavior: 'smooth'
+                });
+            });
+        });
+
+        // Modal functionality
+        const modal = document.getElementById('emailModal');
+        const closeModal = document.getElementById('closeModal');
+        const cancelModal = document.getElementById('cancelModal');
+        const emailForm = document.getElementById('emailForm');
+
+        // Show modal when CTA buttons are clicked
+        document.querySelectorAll('button').forEach(button => {
+            if (button.textContent.includes('신청') || button.textContent.includes('등록')) {
+                button.addEventListener('click', function() {
+                    modal.classList.remove('hidden');
+                    modal.classList.add('flex');
+                });
+            }
+        });
+
+        // Close modal functions
+        function closeModalFunc() {
+            modal.classList.add('hidden');
+            modal.classList.remove('flex');
+            emailForm.reset();
+        }
+
+        closeModal.addEventListener('click', closeModalFunc);
+        cancelModal.addEventListener('click', closeModalFunc);
+
+        // Close modal when clicking outside
+        modal.addEventListener('click', function(e) {
+            if (e.target === modal) {
+                closeModalFunc();
+            }
+        });
+
+                 // Handle form submission
+         emailForm.addEventListener('submit', function(e) {
+             e.preventDefault();
+             
+             const formData = new FormData(emailForm);
+             const name = formData.get('name');
+             const email = formData.get('email');
+             const phone = formData.get('phone');
+             const message = formData.get('message');
+             
+             // Show loading state
+             const submitBtn = emailForm.querySelector('button[type="submit"]');
+             const originalText = submitBtn.textContent;
+             submitBtn.textContent = '전송 중...';
+             submitBtn.disabled = true;
+             
+             // Submit to Formspree
+             fetch('https://formspree.io/f/xkgzzabd', {
+                 method: 'POST',
+                 body: formData,
+                 headers: {
+                     'Accept': 'application/json'
+                 }
+             })
+             .then(response => {
+                 if (response.ok) {
+                     // Show success message
+                     alert(`${name}님, 신청이 완료되었습니다!\n이메일: ${email}\n곧 연락드리겠습니다.`);
+                     
+                     // Close modal and reset form
+                     closeModalFunc();
+                 } else {
+                     throw new Error('Network response was not ok');
+                 }
+             })
+             .catch(error => {
+                 console.error('Error:', error);
+                 alert('신청 중 오류가 발생했습니다. 다시 시도해주세요.');
+             })
+             .finally(() => {
+                 // Reset button state
+                 submitBtn.textContent = originalText;
+                 submitBtn.disabled = false;
+             });
+         });
+    </script>
+</body>
+</html> 
